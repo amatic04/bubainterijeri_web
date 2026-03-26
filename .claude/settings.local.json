@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"^C:/Users/Antonio/Downloads/www.buba.hr/www.buba.hr/images/[^/]*$\")",
+      "Bash(xargs wc:*)",
+      "Bash(rm \"C:/Users/Antonio/Desktop/www.buba.hr/swfobject.js\")",
+      "Bash(rm \"C:/Users/Antonio/Desktop/www.buba.hr/css/buba_interijeri.css\")",
+      "Bash(rm -rf \"C:/Users/Antonio/Desktop/www.buba.hr/www.google-analytics.com\")",
+      "Bash(rm -rf \"C:/Users/Antonio/Desktop/www.buba.hr/_DataURI\")",
+      "Bash(mv \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupanica5.jpeg\" \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupaonica5.jpeg\")",
+      "Bash(mv \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupanica6.jpeg\" \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupaonica6.jpeg\")"
+    ]
+  }
+}
