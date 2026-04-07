@@ -8,7 +8,15 @@
       "Bash(rm -rf \"C:/Users/Antonio/Desktop/www.buba.hr/www.google-analytics.com\")",
       "Bash(rm -rf \"C:/Users/Antonio/Desktop/www.buba.hr/_DataURI\")",
       "Bash(mv \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupanica5.jpeg\" \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupaonica5.jpeg\")",
-      "Bash(mv \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupanica6.jpeg\" \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupaonica6.jpeg\")"
+      "Bash(mv \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupanica6.jpeg\" \"C:/Users/Antonio/Desktop/www.buba.hr/images/Kupaonice/kupaonica6.jpeg\")",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(node -e \":*)",
+      "Bash(where node:*)",
+      "Bash(where python:*)",
+      "Bash(where powershell:*)",
+      "Bash(grep -E \"class=\"\"[^\"\"]*\\\\s{2,}\" \"C:\\\\Users\\\\Antonio\\\\Desktop\\\\www.buba.hr\\\\index.html\")",
+      "Bash(grep -n \"btn-red\\\\|btn-gold\" \"c:/Users/Antonio/Desktop/www.buba.hr/\"*.html)"
     ]
   }
 }

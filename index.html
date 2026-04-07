@@ -25,8 +25,9 @@
     <nav id="navbar">
         <div class="nav-container">
             <a href="#hero" class="nav-logo">
-                <span class="logo-buba">BUBA</span> <span class="logo-in">IN</span>terijeri <span
-                    class="logo-dizajn">dizajn</span>
+                <img src="images/bubalogo.png" alt="BUBA logo" class="nav-logo-img">
+                <span><span class="logo-buba">BUBA</span> <span class="logo-in">IN</span>terijeri <span
+                        class="logo-dizajn">dizajn</span></span>
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Otvori izbornik">
                 <span></span>
@@ -37,8 +38,9 @@
                 <li><a href="#hero">Naslovnica</a></li>
                 <li><a href="#o-nama">O nama</a></li>
                 <li><a href="#usluge">Usluge</a></li>
-                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
                 <li><a href="#kontakt" class="nav-cta">Kontakt</a></li>
+                <li class="nav-li-gold"><a href="akcija.html" class="nav-cta-gold">Opremi i osvoji</a></li>
             </ul>
         </div>
     </nav>
@@ -51,8 +53,7 @@
             <div class="hero-eyebrow">Zagreb &mdash; Hrvatska</div>
             <h1 class="hero-title">
                 <span class="hero-title-main">BUBA</span>
-                <span class="hero-title-sub"><span class="hero-sub-in">IN</span>terijeri <span
-                        class="hero-sub-dizajn">dizajn</span></span>
+                <span class="hero-title-sub">INterijeri dizajn</span>
             </h1>
             <p class="hero-headline">Dizajn, projektiranje i izrada namještaja po mjeri</p>
             <p class="hero-tagline">Dolazimo k Vama &mdash; s uzorcima najnovijih materijala i mogućnošću simulacije
@@ -173,7 +174,7 @@
                         </div>
                     </div>
                     <div class="features-cta">
-                        <a href="#kontakt" class="btn btn-red">Dogovorite konzultacije</a>
+                        <a href="#kontakt" class="btn btn-primary">Dogovorite konzultacije</a>
                     </div>
                 </div>
             </div>
@@ -327,19 +328,18 @@
     </section>
 
     <!-- ========== GALERIJA ========== -->
-    <section id="galerija" class="section section-light gal-section">
+    <section id="galerija" class="section section-light">
         <div class="container">
             <div class="section-header fade-up">
                 <span class="section-tag">Naš rad</span>
                 <h2 class="section-title">Galerija</h2>
                 <div class="section-divider"></div>
-                <p class="section-desc-dark">Pogledajte naše realizirane projekte. Kliknite na sliku za pregled.</p>
+                <p class="section-desc-dark">Pogledajte naše realizirane projekte raspoređene u kategorije.</p>
             </div>
 
-            <!-- ── VIEW 1: Category cards ── -->
-            <div id="galCategories" class="gal-cat-grid fade-up">
+            <div class="gal-cat-grid fade-up">
 
-                <div class="gal-cat-card" data-category="kuhinje" data-label="Kuhinje" data-count="35">
+                <a class="gal-cat-card" href="galerija.html#kuhinje">
                     <img src="images/Kuhinje/kuhinja17.jpeg" alt="Kuhinje" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Kuhinje</span>
@@ -352,8 +352,8 @@
                             </svg>
                         </span>
                     </div>
-                </div>
-                <div class="gal-cat-card" data-category="dnevni" data-label="Dnevni boravak" data-count="28">
+                </a>
+                <a class="gal-cat-card" href="galerija.html#dnevni">
                     <img src="images/Dnevni boravak/boravak4.jpeg" alt="Dnevni boravak" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Dnevni boravak</span>
@@ -366,8 +366,8 @@
                             </svg>
                         </span>
                     </div>
-                </div>
-                <div class="gal-cat-card" data-category="spavace" data-label="Spavaće sobe" data-count="20">
+                </a>
+                <a class="gal-cat-card" href="galerija.html#spavace">
                     <img src="images/Spavace sobe/soba12.jpeg" alt="Spavaće sobe" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Spavaće sobe</span>
@@ -380,8 +380,8 @@
                             </svg>
                         </span>
                     </div>
-                </div>
-                <div class="gal-cat-card" data-category="kupaonice" data-label="Kupaonice" data-count="24">
+                </a>
+                <a class="gal-cat-card" href="galerija.html#kupaonice">
                     <img src="images/Kupaonice/kupaonica2.jpeg" alt="Kupaonice" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Kupaonice</span>
@@ -394,8 +394,8 @@
                             </svg>
                         </span>
                     </div>
-                </div>
-                <div class="gal-cat-card" data-category="predsoblja" data-label="Predsoblja" data-count="11">
+                </a>
+                <a class="gal-cat-card" href="galerija.html#predsoblja">
                     <img src="images/Predsoblja/predsoblje6.jpeg" alt="Predsoblja" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Predsoblja</span>
@@ -408,8 +408,8 @@
                             </svg>
                         </span>
                     </div>
-                </div>
-                <div class="gal-cat-card" data-category="uredi" data-label="Uredi" data-count="15">
+                </a>
+                <a class="gal-cat-card" href="galerija.html#uredi">
                     <img src="images/Uredi/ured4.jpeg" alt="Uredi" loading="lazy">
                     <div class="gal-cat-overlay">
                         <span class="gal-cat-name">Uredi</span>
@@ -422,610 +422,16 @@
                             </svg>
                         </span>
                     </div>
-                </div>
+                </a>
 
             </div><!-- /gal-cat-grid -->
 
-            <!-- ── VIEW 2: Images of selected category ── -->
-            <div id="galImages" class="gal-images-view gal-hidden">
-
-                <div class="gal-images-header">
-                    <button class="gal-back-btn" id="galBack">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="15 18 9 12 15 6" />
-                        </svg>
-                        Sve kategorije
-                    </button>
-                    <h3 id="galCatTitle"></h3>
-                    <span id="galCatCount" class="gal-images-count"></span>
-                </div>
-
-                <div class="gal-grid" id="galGrid">
-
-
-                    <!-- KUHINJE -->
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja17.jpeg" alt="Kuhinja 17" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja1.jpeg" alt="Kuhinja 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja2.jpeg" alt="Kuhinja 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja3.jpeg" alt="Kuhinja 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja4.jpeg" alt="Kuhinja 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja5.jpeg" alt="Kuhinja 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja6.jpeg" alt="Kuhinja 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja7.jpeg" alt="Kuhinja 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja8.jpeg" alt="Kuhinja 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja9.jpeg" alt="Kuhinja 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja10.jpeg" alt="Kuhinja 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja11.jpeg" alt="Kuhinja 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja12.jpeg" alt="Kuhinja 12" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja13.jpeg" alt="Kuhinja 13" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja14.jpeg" alt="Kuhinja 14" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja15.jpeg" alt="Kuhinja 15" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja16.jpeg" alt="Kuhinja 16" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja18.jpeg" alt="Kuhinja 18" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja19.jpeg" alt="Kuhinja 19" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja20.jpeg" alt="Kuhinja 20" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja21.jpeg" alt="Kuhinja 21" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja22.jpeg" alt="Kuhinja 22" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja23.jpeg" alt="Kuhinja 23" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja24.jpeg" alt="Kuhinja 24" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja25.jpeg" alt="Kuhinja 25" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja26.jpeg" alt="Kuhinja 26" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja27.jpeg" alt="Kuhinja 27" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja28.jpg" alt="Kuhinja 28" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja29.jpg" alt="Kuhinja 29" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja30.jpg" alt="Kuhinja 30" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja31.jpg" alt="Kuhinja 31" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja32.jpg" alt="Kuhinja 32" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja33.jpg" alt="Kuhinja 33" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja34.jpeg" alt="Kuhinja 34" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kuhinje">
-                        <img src="images/Kuhinje/kuhinja35.jpeg" alt="Kuhinja 35" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                    <!-- DNEVNI BORAVAK -->
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak4.jpeg" alt="Dnevni boravak 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak1.jpeg" alt="Dnevni boravak 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak2.jpeg" alt="Dnevni boravak 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak3.jpeg" alt="Dnevni boravak 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak5.jpeg" alt="Dnevni boravak 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak6.jpeg" alt="Dnevni boravak 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak7.jpeg" alt="Dnevni boravak 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak8.jpeg" alt="Dnevni boravak 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak9.jpeg" alt="Dnevni boravak 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak10.jpeg" alt="Dnevni boravak 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak11.jpeg" alt="Dnevni boravak 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak12.jpeg" alt="Dnevni boravak 12" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak13.jpeg" alt="Dnevni boravak 13" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak14.jpeg" alt="Dnevni boravak 14" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak15.jpeg" alt="Dnevni boravak 15" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak16.jpeg" alt="Dnevni boravak 16" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak17.jpeg" alt="Dnevni boravak 17" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak18.jpg" alt="Dnevni boravak 18" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak19.jpg" alt="Dnevni boravak 19" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak20.jpeg" alt="Dnevni boravak 20" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak21.jpeg" alt="Dnevni boravak 21" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak22.jpeg" alt="Dnevni boravak 22" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak23.jpeg" alt="Dnevni boravak 23" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak24.jpeg" alt="Dnevni boravak 24" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak25.jpeg" alt="Dnevni boravak 25" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak26.jpeg" alt="Dnevni boravak 26" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak27.jpeg" alt="Dnevni boravak 27" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="dnevni">
-                        <img src="images/Dnevni boravak/boravak28.jpeg" alt="Dnevni boravak 28" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                    <!-- SPAVAĆE SOBE -->
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba12.jpeg" alt="Spavaća soba 12" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba1.jpeg" alt="Spavaća soba 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba2.jpeg" alt="Spavaća soba 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba3.jpeg" alt="Spavaća soba 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba4.jpeg" alt="Spavaća soba 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba5.jpeg" alt="Spavaća soba 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba6.jpeg" alt="Spavaća soba 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba7.jpeg" alt="Spavaća soba 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba8.jpeg" alt="Spavaća soba 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba9.jpeg" alt="Spavaća soba 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba10.jpeg" alt="Spavaća soba 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba11.jpeg" alt="Spavaća soba 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba13.jpeg" alt="Spavaća soba 13" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba14.jpeg" alt="Spavaća soba 14" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba15.jpg" alt="Spavaća soba 15" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba16.jpg" alt="Spavaća soba 16" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba17.jpg" alt="Spavaća soba 17" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba18.jpg" alt="Spavaća soba 18" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba19.jpeg" alt="Spavaća soba 19" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="spavace">
-                        <img src="images/Spavace sobe/soba20.jpeg" alt="Spavaća soba 20" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                    <!-- KUPAONICE -->
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica2.jpeg" alt="Kupaonica 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica1.jpeg" alt="Kupaonica 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica3.jpeg" alt="Kupaonica 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica4.jpeg" alt="Kupaonica 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica5.jpeg" alt="Kupaonica 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica6.jpeg" alt="Kupaonica 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica7.jpeg" alt="Kupaonica 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica8.jpg" alt="Kupaonica 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica9.jpeg" alt="Kupaonica 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica10.jpeg" alt="Kupaonica 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica11.jpeg" alt="Kupaonica 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica12.jpeg" alt="Kupaonica 12" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica13.jpeg" alt="Kupaonica 13" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica14.jpeg" alt="Kupaonica 14" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica15.jpeg" alt="Kupaonica 15" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica16.jpeg" alt="Kupaonica 16" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica17.jpeg" alt="Kupaonica 17" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica19.jpeg" alt="Kupaonica 19" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica20.jpeg" alt="Kupaonica 20" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica21.jpeg" alt="Kupaonica 21" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica22.jpeg" alt="Kupaonica 22" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica23.jpeg" alt="Kupaonica 23" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica24.jpeg" alt="Kupaonica 24" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="kupaonice">
-                        <img src="images/Kupaonice/kupaonica25.jpeg" alt="Kupaonica 25" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                    <!-- PREDSOBLJA -->
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje6.jpeg" alt="Predsoblje 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje1.jpeg" alt="Predsoblje 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje2.jpeg" alt="Predsoblje 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje3.jpeg" alt="Predsoblje 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje4.jpeg" alt="Predsoblje 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje5.jpeg" alt="Predsoblje 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje7.jpeg" alt="Predsoblje 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje8.jpeg" alt="Predsoblje 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje9.jpeg" alt="Predsoblje 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje10.jpeg" alt="Predsoblje 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="predsoblja">
-                        <img src="images/Predsoblja/predsoblje11.jpg" alt="Predsoblje 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                    <!-- UREDI -->
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured4.jpeg" alt="Ured 4" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured1.jpeg" alt="Ured 1" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured2.jpeg" alt="Ured 2" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured3.jpeg" alt="Ured 3" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured5.jpeg" alt="Ured 5" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured6.jpeg" alt="Ured 6" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured7.jpeg" alt="Ured 7" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured8.jpeg" alt="Ured 8" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured9.jpeg" alt="Ured 9" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured10.jpeg" alt="Ured 10" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured11.jpeg" alt="Ured 11" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured12.jpeg" alt="Ured 12" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured13.jpeg" alt="Ured 13" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured14.jpeg" alt="Ured 14" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-                    <div class="gal-item" data-category="uredi">
-                        <img src="images/Uredi/ured15.jpeg" alt="Ured 15" loading="lazy">
-                        <div class="gal-overlay"></div>
-                    </div>
-
-                </div><!-- /gal-grid -->
-            </div><!-- /gal-images-view -->
-
             <div class="gallery-footer fade-up">
                 <p>Zainteresirani ste za naše usluge?</p>
-                <a href="#kontakt" class="btn btn-red">Zatražite ponudu</a>
+                <a href="#kontakt" class="btn btn-primary">Zatražite ponudu</a>
             </div>
         </div>
     </section>
-
-    <!-- ========== LIGHTBOX ========== -->
-    <div id="lightbox" aria-modal="true" role="dialog" aria-label="Pregled slike">
-        <button class="lb-close" id="lbClose" aria-label="Zatvori">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-        </button>
-        <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Prethodna">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="15 18 9 12 15 6" />
-            </svg>
-        </button>
-        <button class="lb-arrow lb-next" id="lbNext" aria-label="Sljedeća">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="9 18 15 12 9 6" />
-            </svg>
-        </button>
-        <div class="lb-img-wrap">
-            <img id="lbImg" src="" alt="">
-        </div>
-        <div class="lb-caption">
-            <span id="lbLabel"></span>
-            <span id="lbCounter"></span>
-        </div>
-    </div>
 
     <!-- ========== CTA BANNER ========== -->
     <section class="cta-section">
@@ -1050,7 +456,7 @@
             </div>
             <div class="contact-grid">
                 <div class="contact-info fade-up">
-                    <h3>BUBA INterijeri</h3>
+                    <h3>BUBA INterijeri dizajn</h3>
                     <p class="contact-sub">Dolazimo k Vama!</p>
                     <ul class="contact-list">
                         <li>
@@ -1076,8 +482,7 @@
                             </div>
                             <div class="contact-detail">
                                 <strong>Telefon</strong>
-                                <p><a href="tel:+38598350468">+385 98 350 468</a><br><a href="tel:+385981770027">+385 98
-                                        177 0027</a></p>
+                                <p>mob:<br>&emsp;<a href="tel:+38598350468">+385 98 350 468</a><br>&emsp;<a href="tel:+385981770027">+385 98 177 0027</a><br>tel:<br>&emsp;<a href="tel:+38513864222">01 3864 222</a></p>
                             </div>
                         </li>
                         <li>
@@ -1097,7 +502,7 @@
                     </ul>
                     <div class="working-hours">
                         <h4>Radno vrijeme</h4>
-                        <p>Ponedjeljak &ndash; Petak: 8:00 &ndash; 17:00</p>
+                        <p>Ponedjeljak &ndash; Petak: 08:00 &ndash; 20:00 po dogovoru</p>
                         <p>Subota: Po dogovoru</p>
                         <p>Nedjelja: Zatvoreno</p>
                     </div>
@@ -1115,24 +520,24 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="telefon">Telefon</label>
-                            <input type="tel" id="telefon" name="telefon" placeholder="+385 ...">
+                            <label for="telefon">Telefon <span class="req">*</span></label>
+                            <input type="tel" id="telefon" name="telefon" placeholder="+385 ..." required>
                         </div>
                         <div class="form-group">
-                            <label for="usluga">Vrsta usluge</label>
-                            <select id="usluga" name="usluga">
+                            <label for="usluga">Vrsta usluge <span class="req">*</span></label>
+                            <select id="usluga" name="usluga" required>
                                 <option value="">&#8212; Odaberite &#8212;</option>
-                                <option value="kuhinja">Kuhinja</option>
-                                <option value="dnevni">Dnevni boravak</option>
-                                <option value="spavaca">Spavaća soba</option>
-                                <option value="kupaonica">Kupaonica</option>
-                                <option value="ormar">Ugradbeni ormari</option>
-                                <option value="predsoblje">Predsoblje</option>
-                                <option value="djecja">Dječja soba</option>
-                                <option value="radna">Radna soba</option>
-                                <option value="poslovni">Poslovni prostor</option>
-                                <option value="apartman">Opremanje apartmana / hotela</option>
-                                <option value="ostalo">Ostalo</option>
+                                <option value="Kuhinja">Kuhinja</option>
+                                <option value="Dnevni boravak">Dnevni boravak</option>
+                                <option value="Spavaća soba">Spavaća soba</option>
+                                <option value="Kupaonica">Kupaonica</option>
+                                <option value="Ugradbeni ormari">Ugradbeni ormari</option>
+                                <option value="Predsoblje">Predsoblje</option>
+                                <option value="Dječja soba">Dječja soba</option>
+                                <option value="Radna soba">Radna soba</option>
+                                <option value="Poslovni prostor">Poslovni prostor</option>
+                                <option value="Opremanje apartmana / hotela">Opremanje apartmana / hotela</option>
+                                <option value="Ostalo">Ostalo</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -1141,7 +546,7 @@
                                 placeholder="Opišite Vaše potrebe i prostorije koje želite urediti…"
                                 required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-red btn-full">Pošaljite upit</button>
+                        <button type="submit" class="btn btn-primary btn-full">Pošaljite upit</button>
                         <p class="form-note">* Obavezna polja</p>
                     </form>
                 </div>
@@ -1172,8 +577,7 @@
                             <li><a href="#usluge">Ugradbeni ormari</a></li>
                         </ul>
                     </div>
-                    <div class="footer-col">
-                        <h4>&nbsp;</h4>
+                    <div class="footer-col footer-col-cont">
                         <ul>
                             <li><a href="#usluge">Predsoblje</a></li>
                             <li><a href="#usluge">Kupaonica</a></li>
@@ -1188,7 +592,8 @@
                             <li><a href="#hero">Naslovnica</a></li>
                             <li><a href="#o-nama">O nama</a></li>
                             <li><a href="#usluge">Usluge</a></li>
-                            <li><a href="#galerija">Galerija</a></li>
+                            <li><a href="galerija.html">Galerija</a></li>
+                            <li><a href="akcija.html">Opremi i osvoji</a></li>
                             <li><a href="#kontakt">Kontakt</a></li>
                         </ul>
                     </div>
@@ -1197,7 +602,7 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>&copy; 2024 BUBA INterijeri. Sva prava pridržana.</p>
+                <p>&copy; 2024 BUBA INterijeri dizajn. Sva prava pridržana.</p>
                 <p>Horvaćanska 162, Zagreb, Hrvatska</p>
             </div>
         </div>
@@ -1211,6 +616,7 @@
         </svg>
     </a>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
