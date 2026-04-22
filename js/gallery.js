@@ -96,6 +96,13 @@
       history.replaceState(null, '', '#' + card.dataset.category);
       openCategory(card.dataset.category, card.dataset.label, card.dataset.count);
     });
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        history.replaceState(null, '', '#' + card.dataset.category);
+        openCategory(card.dataset.category, card.dataset.label, card.dataset.count);
+      }
+    });
   });
 
   if (galBackBtn) {

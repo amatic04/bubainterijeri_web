@@ -68,8 +68,6 @@
     fadeEls.forEach(function (el) { el.classList.add('in-view'); });
   }
 
-  /* Gallery and lightbox moved to js/gallery.js (galerija.html) */
-
   /* ---- EmailJS init ---- */
   if (typeof emailjs !== 'undefined') {
     emailjs.init('z_P96eL1X_Ng_Pdyi');
