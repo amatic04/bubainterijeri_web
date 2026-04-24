@@ -17,7 +17,9 @@
       "Bash(where powershell:*)",
       "Bash(grep -E \"class=\"\"[^\"\"]*\\\\s{2,}\" \"C:\\\\Users\\\\Antonio\\\\Desktop\\\\www.buba.hr\\\\index.html\")",
       "Bash(grep -n \"btn-red\\\\|btn-gold\" \"c:/Users/Antonio/Desktop/www.buba.hr/\"*.html)",
-      "Bash(grep -E \"\\\\.\\(png|jpg|jpeg|gif|svg\\)$\")"
+      "Bash(grep -E \"\\\\.\\(png|jpg|jpeg|gif|svg\\)$\")",
+      "Bash(node -e ' *)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
